@@ -1,0 +1,97 @@
+.gif-container {
+    position: relative;
+    display: inline-block;
+}
+
+.gif-play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.gif-play-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-width: 15px 0 15px 25px;
+    border-color: transparent transparent transparent white;
+}
+
+/* 重播按钮样式 */
+.gif-replay-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+/* 重播图标样式 - 循环箭头 */
+.gif-replay-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    border: 3px solid white;
+    border-radius: 50%;
+    border-right-color: transparent;
+    transform-origin: center;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.gif-replay-button::after {
+    content: '';
+    position: absolute;
+    top: 35%;
+    right: 35%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 8px 8px;
+    border-color: transparent transparent white transparent;
+    transform: rotate(45deg);
+}
+
+/* GIF 容器和进度条样式 */
+.jsgif {
+    position: relative;
+}
+
+.jsgif canvas {
+    z-index: 1;
+}
+
+
+
+/* 加载提示样式 */
+.gif-loading-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+}

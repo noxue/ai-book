@@ -1,0 +1,1 @@
+scp -r .\book root@v.dot2.com:/apps/ai-dev/
