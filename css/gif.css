@@ -40,6 +40,7 @@
     background: rgba(0, 0, 0, 0.6);
     cursor: pointer;
 }
+
 /* 重播图标样式 - 循环箭头 */
 .gif-replay-button::before {
     content: '';
@@ -67,6 +68,40 @@
     transform: rotate(-10deg);
 }
 
+/* 暂停按钮样式 */
+.gif-pause-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+/* 暂停图标样式 - 双竖线 */
+.gif-pause-button::before,
+.gif-pause-button::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 24px;
+    background: white;
+}
+
+.gif-pause-button::before {
+    left: 35%;
+}
+
+.gif-pause-button::after {
+    right: 35%;
+}
+
 /* GIF 容器和进度条样式 */
 .jsgif {
     position: relative;
@@ -75,8 +110,6 @@
 .jsgif canvas {
     z-index: 1;
 }
-
-
 
 /* 加载提示样式 */
 .gif-loading-container {
