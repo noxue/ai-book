@@ -159,7 +159,7 @@ function showMessage() {
 </script>
 ```
 
-> 注意：js代码要写在 `<script>` 标签中，`<script>` 标签要写在 `</body>` 标签之前。
+> 注意：js代码要写在 `<script>` 标签中。
 > 
 > function 是定义一个函数，showMessage 是函数名，() 是函数参数，{} 是函数体，里面就是放js代码。
 > 
@@ -266,3 +266,9 @@ document.getElementById('myButton').onclick = function() {
 * 如果有多个css文件，可以引入多个，如果有多个js文件，可以引入多个
 * 其他不变
 
+
+### 学习 javascript
+
+根据这个文档学习 [用AI快速入门任何语言](./language.md)
+
+> 学习过程中，有任何问题，可以加群或加我微信交流

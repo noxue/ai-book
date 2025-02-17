@@ -16,14 +16,22 @@
 
 # 编程通识
 - [何谓通识](./basic/what.md)
+- [用AI快速入门任何语言](./basic/language.md)
 - [开发短剧机器人为例演示AI编程思维](./basic/learn.md)
+- [数据存储通识](./basic/storage.md)
 - [网页开发通识](./basic/web.md)
+- [数据库通识](./basic/database.md)
 - [计算机网络通识](./basic/network.md)
 - [服务器操作系统通识](./basic/os.md)
-- [数据库通识](./basic/database.md)
 - [Git通识](./basic/git.md)
 
 
 # 开发环境
 
 - [vscode 安装](./tools/vscode.md)
+- [cursor 安装](./tools/cursor.md)
+- [cursor 如何配置deepseek模型](./tools/cursor-api.md)
+
+# 其他技巧
+
+- [cursor 规则](./other/cursor-rules-for-ai.md)
