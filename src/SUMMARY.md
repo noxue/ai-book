@@ -22,7 +22,7 @@
 - [网页开发通识](./basic/web.md)
 - [数据库通识](./basic/database.md)
 - [计算机网络通识](./basic/network.md)
-- [服务器操作系统通识](./basic/os.md)
+- [服务器运维通识](./basic/os.md)
 - [Git通识](./basic/git.md)
 
 
